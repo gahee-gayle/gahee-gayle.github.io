@@ -1,0 +1,226 @@
+
+/* ==========================================================================
+Home Page
+========================================================================== */
+.about-service{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 120px 0 140px 0px;
+  background: linear-gradient(-45deg, #0F52A7, #188EF0);
+
+}
+
+.about-service p{
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 60px;
+
+}
+
+#direction-btn{
+  padding: 10px 50px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: white solid 2px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+#direction-btn:hover{
+  color: #188EF0;
+  background-color: #ffffff;
+}
+
+
+
+#church-map #goto-preschool{
+  padding: 10px 50px;
+  background-color: #a9a9a9;
+  color: #4a4a4a;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#church-map-wrapper{
+  margin: 0 auto;
+  width: 100%;
+  background-color: #4a4a4a;
+}
+
+section #main{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+
+}
+.row{
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.col-1-2{
+  height: 45vh;
+  flex-basis: 50%;
+  text-align: center;
+    line-height: 45vh;
+  max-height: 400px;
+  max-width: 800px;
+}
+
+.blue-overlay{
+  background-color: rgba(24,142,240,.25);
+  opacity: 1;
+  z-index: 100;
+
+  transition: all .2s ease-in-out;
+}
+
+.blue-overlay:hover{
+  opacity:0;
+}
+.blue-overlay h2{
+  opacity: 1;
+}
+#box-1{
+  background-image: url("../img/home_what_next_01.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+
+}
+
+
+
+
+#box-2{
+  background-image: url("../img/home_small_group_01.jpg");
+  background-size: cover;
+
+}
+
+
+#box-3{
+  background-image: url("../img/home_serving_oppo_01.jpg");
+  background-size: cover;
+
+}
+
+
+
+#box-4{
+  background-image: url("../img/home_sermons_01.jpg");
+  background-size: cover;
+
+}
+
+
+
+#main .row a{
+  text-decoration: none;
+
+
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.3s;
+    animation-name: fadeIn;
+    animation-duration: 0.3s
+    display:flex !important;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    width: 60%;
+    height:60%;
+    margin: 0 auto;
+    position:relative;
+
+
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position:absolute;
+    top:0;
+    right:20px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 20px 16px 20px 16px;
+    background-color: #188EF0;
+    color: white;
+    position: relative;
+}
+
+.modal-body {
+  position: absolute;
+  padding: 20px 16px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}

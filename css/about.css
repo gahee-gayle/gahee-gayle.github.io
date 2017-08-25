@@ -1,0 +1,369 @@
+
+/* ==========================================================================
+About Us
+========================================================================== */
+#photo-about{
+  background-image: url(../img/about/photo_about.jpg);
+  height: 100vh;
+  display: block;
+  /*background-image: url(../img/ministry/ministry_bg.jpg);*/
+  background-size: cover;
+  background-position: top 40px right;
+  background-repeat: no-repeat;
+  z-index: -100;
+}
+
+#vision-box{
+  display: block;
+  background-color: #ffffff;
+  padding-top: 40px;
+  max-width: 70%;
+  margin: 0 auto;
+  color: #188EF0;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  border: solid #188ef0 2px;
+  margin-top: 70px;
+}
+
+hr{
+  max-width: 100%;
+  border: solid #188ef0 .5px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+#about-vision-verse{
+  font-size: 16px;
+  line-height: 28px;
+  text-align: right;
+  color: #4a4a4a;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+#pastor-greeting-wrapper{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+
+}
+
+#pastor-photo{
+  width: 24%;
+  max-height: 300px;
+  background-image: url(../img/about/pray_about.jpg);
+  background-size: cover;
+  background-position: bottom 10px right -85px;
+
+  display: block;
+  margin-top: 130px;
+  background-repeat: no-repeat;
+
+}
+#pastor-greeting{
+  display: block;
+  background-color: #ffffff;
+  padding: 70px 0 100px 0;
+  max-width: 73%;
+  margin: 0 auto;
+  margin:0;
+}
+
+#about-left-align{
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  color: #4a4a4a;
+  margin-top: 30px;
+}
+
+#about-p{
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+#baptist-belief{
+  background-color: #E9F7FE;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+  text-align: center;
+  color: #188ef0;
+  font-size: 26px;
+  line-height: 45px;
+}
+
+#baptist-belief a{
+  text-decoration: none;
+  color:#188ef0;
+}
+
+#baptist-belief a:hover{
+  text-decoration: none;
+  color:  #0F52A7;
+}
+
+#two-line-header h2{
+  display: block;
+  color: #4a4a4a;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  width: 70%;
+  margin: 0 auto;
+  border-top: 2px #35C1F9 solid;
+  border-bottom: 2px #35C1F9 solid;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+#four-pillars{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+#four-pillars .col-1-2{
+  flex-basis: 49%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  max-height: 300px;
+}
+
+#four-pillars .text{
+  display: block;
+  width: 35%;
+  padding: 250px 0;
+  background-color: rgba(24,142,240,.45);
+  z-index: 10;
+}
+
+
+#box-1-des{
+  position: absolute;
+  font-size: 21px;
+  line-height: 30px;
+  padding: 200% 3%;
+  background-color:#188ef0;
+  width: 65.5%;
+  margin-left: 100%;
+  transition: all .3s ease-in-out;
+}
+
+#box-1:hover #box-1-des{
+  margin-left: 35%;
+}
+
+
+#box-2-des{
+  position: absolute;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding: 200% 3%;
+  background-color:#188ef0;
+  width: 65.5%;
+  margin-left: 100%;
+  transition: all .3s ease-in-out;
+}
+#box-2:hover #box-2-des{
+  margin-left: 35%;
+}
+#box-3-des{
+  position: absolute;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding: 200% 3%;
+  background-color:#188ef0;
+  width: 65.5%;
+  margin-left: 100%;
+  transition: all .3s ease-in-out;
+}
+#box-3:hover #box-3-des{
+  margin-left: 35%;
+}
+#box-4-des{
+  position: absolute;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding: 200% 3%;
+  background-color:#188ef0;
+  width: 65.5%;
+  margin-left: 100%;
+  transition: all .3s ease-in-out;
+}
+#box-4:hover #box-4-des{
+  margin-left: 35%;
+}
+
+#four-pillars h2{
+  font-family: 'Lobster Two', cursive;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 0;
+}
+
+#four-pillars p{
+  font-size: 18px;
+  letter-spacing: .5px;
+  font-weight: 300;
+  padding: 0;
+}
+
+#four-pillars #box-1{
+  background-image: url(../img/about/01_worship.jpg);
+  background-size: cover;
+  position:relative;
+}
+#four-pillars #box-2{
+  background-image: url(../img/about/02_mission.jpg);
+  background-size: cover;
+  position:relative;
+
+}
+#four-pillars #box-3{
+  background-image: url(../img/about/03_discipleship.jpg);
+  background-size: cover;
+  position:relative;
+
+}
+#four-pillars #box-4{
+  background-image: url(../img/about/04_next_generation.jpg);
+  background-size: cover;
+  position:relative;
+
+}
+
+/* ==========================================================================
+LEADERSHIP
+========================================================================== */
+
+
+/*Grid*/
+#grid-wrapper-1{
+  display: grid;
+  width: 70%;
+  height:auto;
+  margin: 0 auto;
+  padding-top: 200px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-row: 1fr 1fr;
+  grid-column-gap: 3%;
+
+}
+
+.cell{
+  display: block;
+  color: #4a4a4a;
+}
+
+#grid-wrapper-1.cell:nth-of-type(1) {
+  grid-column:1
+}
+
+#grid-wrapper-1.cell:nth-of-type(2) {
+  grid-column:2
+}
+
+#grid-wrapper-1 h3{
+  margin-left: 3%;
+  margin-right: 1%;
+  padding: 20px 10px 15px 10px;
+  border-left: solid 1px #188ef0;
+  border-bottom: solid 1px #188ef0;
+  font-size: 18px;
+
+}
+
+#grid-wrapper-1 p{
+  margin-left: 3%;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 30px;
+  padding-left: 10px;
+
+}
+
+#grid-wrapper-2 h3{
+  margin-left: 2%;
+  margin-right: 1%;
+  padding: 20px 10px 15px 10px;
+  border-left: solid 1px #188ef0;
+  border-bottom: solid 1px #188ef0;
+  font-size: 17px;
+}
+
+#grid-wrapper-2 .h5{
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+  line-height: 10px;
+  font-weight: normal;
+}
+
+#grid-wrapper-2 p{
+  margin-left: 2%;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 25px;
+  padding-left: 10px;
+
+}
+
+#grid-wrapper-2{
+  display: grid;
+  width: 70%;
+  height:auto;
+  margin: 0 auto;
+  margin-top: 70px;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 2%;
+  margin-bottom: 70px;
+}
+
+.frame{
+width: 100%;
+display: block;
+overflow: hidden;
+max-height: 300px;
+}
+.frame img{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/*.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}*/
+#grid-wrapper-2.cell:nth-of-type(1) {
+  grid-column:1
+}
+#grid-wrapper-2.cell:nth-of-type(2) {
+  grid-column:2
+}
+#grid-wrapper-2.cell:nth-of-type(3) {
+  grid-column:3
+}

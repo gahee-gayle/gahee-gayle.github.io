@@ -1,0 +1,90 @@
+
+
+/* ==========================================================================
+Ministries
+========================================================================== */
+
+#photo-ministries{
+height: 100vh;
+display: block;
+background-image: url(../img/ministry/ministry_bg.jpg);
+background-size: cover;
+background-position: top 40px right;
+background-repeat: no-repeat;
+z-index: -100;
+position: fixed;
+width: 100%;
+}
+
+
+
+
+
+.ministry-intro-wrapper{
+  display: block;
+  position: relative;
+background-color: rgba(255, 255, 255, .95);
+  margin-bottom: 200px;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  width: 80%;
+  border: 2px solid #1E6ED1;
+}
+
+#elementary-wrapper, #km-wrapper{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
+
+.ministry-intro{
+  margin-left: 230px;
+  padding-right: 200px;
+}
+
+.ministry-intro h3{
+  font-size: 25px;
+  padding: 0px;
+  color: #188ef0;
+}
+
+.ministry-intro h4{
+  padding: 20px 0 15px 0;
+  font-weight: normal;
+}
+
+.ministry-intro h5{
+  font-weight: normal;
+  letter-spacing: .5px;
+}
+ .h6-color{
+  color: #34c0f9;
+  display: inline;
+}
+
+.ministry-intro p{
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0px;
+  margin-top: 20px;
+  color: #4a4a4a;
+}
+
+
+
+.goto-ministry-button{
+  padding: 10px 50px;
+  background: linear-gradient(-80deg, #0F52A7, #188EF0);  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: none;
+  margin: 0;
+  font-size: 18px;
+  margin-top: 50px;
+}
+#ministry-footer{
+  margin-top: 3900px;
+
+}

@@ -1,0 +1,162 @@
+
+/* ==========================================================================
+contact Styles / Plan a Visit
+========================================================================== */
+#contact-header{
+  background-image: url(../img/contact/pray_janette.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#plan-visit-header{
+  background-image: url(../img/plan_visit/plan_visit.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header-visit-text{
+/*color:#35C1F9;*/
+/*text-shadow: 0px 0px .5px #35C1F9;*/
+}
+
+.service-time{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 70px 0 70px 0px;
+    background: linear-gradient(-45deg, #0F52A7, #188EF0);
+}
+
+.form-wrapper{
+  background-color: transparent;
+
+  /*position:relative;*/
+  max-width: 900px;
+  margin: 0 auto;
+  height: 80vh;
+  top:150px;
+
+}
+
+.form-wrapper h1{
+  top: -470px;
+  left:336px;
+  /*position: absolute;*/
+  display: block;
+}
+
+form{
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 60px;
+  margin: 0 auto;
+  color: #4a4a4a;
+
+}
+
+#form-contact{
+  bottom: 50px;
+  left:75px;
+  /*position: absolute;*/
+}
+
+
+
+#church-map-wrapper{
+  padding:30px;
+  margin: 0 auto;
+  background: linear-gradient(-45deg, #0F52A7, #188EF0);
+}
+
+#church-map{
+  padding: 10px 30px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: solid #ffffff 1px;
+  display: block;
+  letter-spacing: .35px;
+}
+
+#goto-preschool{
+  margin: 20px;
+}
+
+.visitor-form-wrapper{
+  background-color: transparent;
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#form-visitor {
+border:solid #333333 1px;
+}
+
+#form-visitor h3{
+margin-bottom: 30px;
+}
+
+input{
+  font-family: "lato";
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: solid 1px #a9a9a9;
+}
+
+
+#first-name{
+  display: inline;
+  width: 48%;
+}
+
+
+#last-name{
+  display: inline;
+  width: 48%;
+}
+
+form .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+#phone-1, #phone-2, #phone-3{
+  display: inline;
+  width: 32%;
+}
+
+label{
+  font-family: "lato";
+  font-size: 15px;
+  color: #333333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+  margin-bottom: 30px;
+    border: solid 1px #a9a9a9;
+
+
+
+
+
+}
+form button{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(-45deg, #0F52A7, #188EF0);
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,1196 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Bonbon|Miss+Fajardose');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* ==========================================================================
+Base styles:
+========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+
+
+
+/* ==========================================================================
+Global Styles
+========================================================================== */
+
+Body{
+  font-family: "Lato", sans-serif;
+
+  color: white;
+  background-color: #ffffff;
+
+}
+
+
+
+
+/* ==========================================================================
+Text Styles
+========================================================================== */
+h1{
+  font-size: 60px;
+  line-height: 85px;
+  /*text-transform: uppercase;*/
+  margin: 0;
+
+
+}
+
+h2{
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 0;
+
+}
+
+h3{
+  color: #4a4a4a;
+  letter-spacing: 1px;
+  /*padding-bottom: 30px;*/
+  margin:0;
+
+}
+
+h4{
+  color: #4a4a4a;
+  font-size: 24px;
+  line-height: 25px;
+  margin: 0;
+
+
+}
+
+h5{
+  color: #4a4a4a;
+  font-size: 20px;
+  letter-spacing: .5px;
+  margin: 0;
+
+}
+
+h6{
+  color: #4a4a4a;
+  letter-spacing: .5px;
+  font-size: 15px;
+
+
+}
+
+
+/* ==========================================================================
+Header Stytles
+========================================================================== */
+header{
+  position:relative;
+  font-weight: 700;
+  /*background-color: #a9a9a9;*/
+  height: 90vh;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /*box-shadow: 10px 10px 5px #888888;*/
+}
+
+header button{
+  padding: 12px 50px;
+  background-color: #4a4a4a;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: none;
+  margin: 0 15px;
+}
+
+#visit{
+  width: 247px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo{
+  background-color: none;
+  display: inline-block;
+  color: white;
+}
+
+.text-buttons-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  /*max-width: 1024px;*/
+  margin: 0 auto;
+
+}
+
+.header-text-button{
+  margin-top: 70px;
+text-shadow: 0px 0px .5px #35C1F9;
+
+}
+
+header h1{
+  padding-bottom: 150px;
+  display: block;
+
+}
+
+.header-visit-text h1{
+  padding-bottom: 0px;
+  display: block;
+
+}
+
+header a button {
+  text-decoration: none;
+  color: #ffffff;
+  /*background-color: #333333;*/
+  background: linear-gradient(-45deg, #35C1F9, #188EF0);
+  transition: all, .3s ease-in-out;
+  /*border: none;
+  font-size: 20px;
+  letter-spacing: 1px;*/
+}
+
+header a button:hover {
+  text-decoration: none;
+  color: #0F52A7;
+  /*border: none;
+  font-size: 20px;
+  letter-spacing: 1px;*/
+}
+
+#video-home{
+  z-index: -100;
+  position:absolute;
+
+}
+
+/* ==========================================================================
+Nav Styles
+========================================================================== */
+.nav-wrapper{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.home-nav-wrapper{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  margin: 0 auto;
+  width: 100%;
+  background-color: transparent;
+  transition: all .2s ease;
+}
+
+.change-bgcolor{
+  background-color:#ffffff;
+
+
+}
+
+
+nav{
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.main-menu-list {
+  display:inline-block;
+  position: relative;
+}
+
+.main-menu-list  a {
+  display: inline-block;
+  padding:10px 25px;
+  color:#35c1f9;
+  text-decoration: none;
+}
+
+.main-menu-list:hover{
+  background:#188EF0;
+}
+
+.main-menu-list:hover a{
+  color: #fff;
+}
+
+
+
+.active{
+color:#188EF0 !important;
+}
+
+
+
+
+.sub-menu {
+  position: absolute;
+  width:160%;
+  background:#35C1F9;
+  padding: 0;
+  text-align: left;
+}
+
+
+.sub-item {
+  display: block;
+  margin:0;
+  /*padding-left:15px;
+  padding-right: 15px;*/
+  /*max-width:150%;*/
+
+}
+.sub-item a {
+  display:block;
+  padding:10px 25px;
+
+}
+
+.sub-item-color{
+  color: #188ef0;
+
+}
+.sub-item:hover a {
+  background:#188EF0;
+  color: #fff;
+}
+.fallback {
+  display:none;
+}
+
+
+.sub_pg_main-menu-list:hover {
+  background:#E6E6E6;
+}
+.sub_pg_main-menu-list  a {
+  display: inline-block;
+  padding:10px 25px;
+  color:#188EF0;
+  text-decoration: none;
+}
+
+
+.sub_pg_main-menu-list:active{
+  color:#35C1F9;
+}
+
+
+#logo{
+  max-height: 45px;
+  flex-basis: 24%;
+}
+#menu_wrapper{
+  flex-basis: 73%;
+}
+.hamburger {
+  background-color: #191919;
+  font-size: 27px;
+  padding: 10px 20px;
+  display:none;
+  text-align: right;
+
+}
+
+
+
+
+
+
+/* ==========================================================================
+Main Styles
+========================================================================== */
+main{
+  /*padding: 100px 0 100px 0px;*/
+  margin: 0 auto;
+  display: block;
+}
+
+
+.pg_title_banner{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 15px 0px;
+  width: 100%;
+  margin-top: 71px;
+  background: linear-gradient(-110deg, rgba(24,142, 240, 0.95), rgba(53,193,249,0.95));
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 99;
+  opacity: .9;
+}
+
+.pg_title_banner h2{
+  font-size: 25px;
+}
+
+#sub-main-photo{
+  height: 100vh;
+  display: block;
+  /*background-image: url(../img/ministry/ministry_bg.jpg);*/
+  background-size: cover;
+  background-position: top 40px right;
+  background-repeat: no-repeat;
+  z-index: -100;
+
+}
+
+.list-wrapper{
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 100px;
+
+}
+
+#ministry_wrapper{
+  position: absolute;
+  top:700px;
+  display: block;
+
+}
+
+
+#main-header{
+  display: block;
+  background-color: #ffffff;
+  padding: 70px 0px 70px 0px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+#main-header h2{
+  color: #4a4a4a;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 140px;
+}
+
+#main-header p{
+  padding-top: 30px;
+  font-size: 22px;
+  line-height: 35px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+
+
+/* ==========================================================================
+Home Page
+========================================================================== */
+.about-service{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 120px 0 140px 0px;
+  background: linear-gradient(-45deg, #0F52A7, #188EF0);
+
+}
+
+.about-service p{
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 60px;
+
+}
+
+#direction-btn{
+  padding: 10px 50px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: white solid 2px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+#direction-btn:hover{
+  color: #188EF0;
+  background-color: #ffffff;
+}
+
+
+
+#church-map #goto-preschool{
+  padding: 10px 50px;
+  background-color: #a9a9a9;
+  color: #4a4a4a;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#church-map-wrapper{
+  margin: 0 auto;
+  width: 100%;
+  background-color: #4a4a4a;
+}
+
+section #main{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+
+}
+.row{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+
+.col-1-2{
+  height: 45vh;
+  flex-basis: 50%;
+  text-align: center;
+  max-height: 400px;
+  max-width: 75  0px;
+
+}
+
+.blue-overlay {
+  background-color: rgba(24,142,240,.25);
+  opacity: 1;
+  z-index: 100;
+  transition: all .2s ease-in-out;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.blue-overlay:hover{
+  opacity:0;
+}
+.blue-overlay h2{
+  opacity: 1;
+  height: 45vh;
+
+}
+#box-1{
+  background-image: url("../img/home_what_next_01.jpg");
+  background-size: cover;
+
+}
+
+
+
+
+#box-2{
+  background-image: url("../img/home_small_group_01.jpg");
+  background-size: cover;
+
+}
+
+
+#box-3{
+  background-image: url("../img/home_serving_oppo_01.jpg");
+  background-size: cover;
+
+}
+
+
+
+#box-4{
+  background-image: url("../img/home_sermons_01.jpg");
+  background-size: cover;
+
+}
+
+
+
+#main .row a{
+  text-decoration: none;
+
+
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.3s;
+    animation-name: fadeIn;
+    animation-duration: 0.3s
+    display:flex !important;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    width: 60%;
+    height:60%;
+    margin: 0 auto;
+    position:relative;
+
+
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position:absolute;
+    top:0;
+    right:20px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 20px 16px 20px 16px;
+    background-color: #188EF0;
+    color: white;
+    position: relative;
+}
+
+.modal-body {
+  position: absolute;
+  padding: 20px 16px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+
+/* ==========================================================================
+what's next Styles
+========================================================================== */
+#sub_pg_header{
+  height: 0vh;
+
+}
+
+.sub_pg_nav{
+  background-color: #ffffff;
+}
+
+.monthly-image-wrppaer{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: #ffffff;
+
+  padding: 70px 0 60px 0px;
+  width: 100%;
+}
+
+.monthly-poster{
+  background-image: url(../img/what_next/july_bg.jpg);
+  background-size:cover;
+  background-position: center;
+  max-width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.monthly-poster h1{
+  font-size: 160px;
+  display: block;
+  font-family: 'Miss Fajardose', cursive;
+  opacity: .8;
+  color: #ffffff;
+  letter-spacing: 10px;
+}
+
+
+.event-header{
+  display: block;
+  background-color: #ffffff;
+  /*max-width: 800px;*/
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.event-header h2{
+  display: block;
+  color: #4a4a4a;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  max-width: 800px;
+  margin: 0 auto;
+  border-top: 2px #4a4a4a solid;
+  border-bottom: 2px #4a4a4a solid;
+}
+
+
+
+#event-row{
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.col-event-item{
+  /*background-color: pink;*/
+  flex-basis: 48%;
+  max-width: 800px;
+  /*height: 400px;*/
+  position: relative;
+
+}
+
+.col-event-item h4{
+  font-size: 22px;
+  font-weight: 500;
+  color: gray;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline;
+  outline: 3px solid gray;
+  outline-offset: -3px;
+  padding: 15px 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.el-shape{
+  display: block;
+  border-bottom: 1.5px solid gray;
+  border-left: 1.5px solid gray;
+  margin-left: 28px;
+  margin-top: 10px;
+  padding: 13px 50px;
+}
+
+.event-contents{
+  display: block;
+  margin-left: 28px;
+  margin-top: 25px;
+  /*padding: 13px 50px;*/
+}
+.event-contents p{
+  display: block;
+  margin: 0px;
+  letter-spacing: .5px;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #4a4a4a;
+  /*padding: 13px 50px;*/
+}
+
+.event-divider{
+  display: block;
+  background-color: #ffffff;
+  /*max-width: 800px;*/
+  max-width: 800px;
+  margin: 0 auto;
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+  padding: 2px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+}
+
+.past-event-wrapper{
+  background-color: #ffffff;
+  width: 100%;
+  color: #a9a9a9;
+  padding-bottom: 100px;
+}
+
+
+/* ==========================================================================
+Ministries
+========================================================================== */
+
+#photo-ministries{
+height: 100vh;
+display: block;
+background-image: url(../img/ministry/ministry_bg.jpg);
+background-size: cover;
+background-position: top 40px right;
+background-repeat: no-repeat;
+z-index: -100;
+}
+
+
+
+
+
+.ministry-intro-wrapper{
+  /*width: 100%;*/
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  /*margin-top: 70px;*/
+  margin-bottom: 200px;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  width: 80%;
+  border: 2px solid #1E6ED1;
+}
+
+#elementary-wrapper{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
+
+.ministry-intro{
+  margin-left: 230px;
+  padding-right: 200px;
+}
+
+.ministry-intro h3{
+  font-size: 25px;
+  padding: 0px;
+}
+
+.ministry-intro h4{
+  padding: 20px 0 15px 0;
+}
+ .h6-color{
+  color: #34c0f9;
+  display: inline;
+}
+
+.ministry-intro p{
+  font-size: 20px;
+  padding: 0px;
+  margin-top: 20px;
+  color: #a9a9a9;
+
+
+}
+
+
+
+.goto-ministry-button{
+  padding: 10px 50px;
+  background: linear-gradient(-80deg, #0F52A7, #188EF0);  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: none;
+  margin: 0;
+  font-size: 18px;
+  margin-top: 50px;
+
+}
+.goto-ministry-button a{
+  color: #fff;
+  text-decoration: none;
+}
+#ministry-footer{
+  margin-top: 3300px;
+
+}
+
+
+
+/* ==========================================================================
+contact Styles / Plan a Visit
+========================================================================== */
+#contact-header{
+  background-image: url(../img/contact/pray_janette.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#plan-visit-header{
+  background-image: url(../img/plan_visit/plan_visit.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header-visit-text{
+/*color:#35C1F9;*/
+/*text-shadow: 0px 0px .5px #35C1F9;*/
+}
+
+.service-time{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 70px 0 70px 0px;
+    background: linear-gradient(-45deg, #0F52A7, #188EF0);
+}
+
+.form-wrapper{
+  background-color: transparent;
+
+  /*position:relative;*/
+  max-width: 900px;
+  margin: 0 auto;
+  height: 80vh;
+  top:150px;
+
+}
+
+.form-wrapper h1{
+  top: -470px;
+  left:336px;
+  /*position: absolute;*/
+  display: block;
+}
+
+form{
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 60px;
+  margin: 0 auto;
+  color: #4a4a4a;
+
+}
+
+#form-contact{
+  bottom: 50px;
+  left:75px;
+  /*position: absolute;*/
+}
+
+
+
+#church-map-wrapper{
+  padding:30px;
+  margin: 0 auto;
+  background: linear-gradient(-45deg, #0F52A7, #188EF0);
+}
+
+#church-map{
+  padding: 10px 30px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: solid #ffffff 1px;
+  display: block;
+  letter-spacing: .35px;
+}
+
+#goto-preschool{
+  margin: 20px;
+}
+
+.visitor-form-wrapper{
+  background-color: transparent;
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#form-visitor {
+border:solid #333333 1px;
+}
+
+#form-visitor h3{
+margin-bottom: 30px;
+}
+
+input{
+  font-family: "lato";
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: solid 1px #a9a9a9;
+}
+
+
+#first-name{
+  display: inline;
+  width: 48%;
+}
+
+
+#last-name{
+  display: inline;
+  width: 48%;
+}
+
+form .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+#phone-1, #phone-2, #phone-3{
+  display: inline;
+  width: 32%;
+}
+
+label{
+  font-family: "lato";
+  font-size: 15px;
+  color: #333333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+  margin-bottom: 30px;
+    border: solid 1px #a9a9a9;
+
+
+
+
+
+}
+form button{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(-45deg, #0F52A7, #188EF0);
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+
+/* ----------------------------------------
+Placeholder Text
+------------------------------------------- */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #929ca2;
+  font-size: 14px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #929ca2;
+  font-size: 14px;
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #929ca2;
+  font-size: 14px;
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #929ca2;
+  font-size: 14px;
+
+}
+
+/* ==========================================================================
+Footer Styles
+========================================================================== */
+
+footer{
+  background-color: #a9a9a9;
+  margin: 0 auto;
+  display: block;
+}
+
+footer .contact{
+  background: linear-gradient(-45deg, #0F52A7, #188EF0, #35C1F9);
+  padding: 30px 100px 30px 0;
+
+  background-color: #7f8080;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+
+
+}
+
+
+footer button{
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+
+  border: white solid 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+footer a button {
+  text-decoration: none;
+  color: #0F52A7;
+  background-color: #ffffff;
+  transition: all, .3s ease-in-out;
+  color: #ffffff;
+  background-color: transparent;
+
+}
+
+footer a button:hover {
+  text-decoration: none;
+  color: #0F52A7;
+  background-color: #ffffff;
+  /*border: none;
+  font-size: 20px;
+  letter-spacing: 1px;*/
+}
+
+
+
+footer .icons{
+  display: inline-block;
+  margin-right: 30px;
+
+}
+
+footer .icons a{
+  display: inline-block;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+footer .fa{
+  padding: 0 15px;
+}
+
+.contact-content {
+  margin: 0 60px;
+}
+
+
+.footer-nav{
+  background: linear-gradient(-200deg, #188EF0, #0F52A7, #0F52A7);
+  background-color: #4a4a4a;
+
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 120px 0 70px 0px;
+
+}
+
+.footer-nav p{
+  font-size: 27px;
+  letter-spacing: 1px;
+  line-height: 60px;
+
+}
+
+#copyright{
+  font-size: 14px;
+
+}
+
+/* ==========================================================================
+Responsive Styles
+========================================================================== */
+
+
+@media screen and (max-width: 1024px){
+  .column-1-2{
+    flex-basis: 50%;
+
+
+  }
+
+}
+
+@media screen and (max-width: 450px){
+
+  nav a{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+
+  }
+
+  .col-1-2{
+    flex-basis: 100%;
+  }
+
+}
